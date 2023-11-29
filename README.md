@@ -1,2 +1,2 @@
-# PhycoSaito.github.io
+# PsycoSaito.github.io
 GitHub pages
