@@ -3,7 +3,7 @@ body{
     padding: 4px;
     font-family: "Avantgarde", sans-serif;
     background: #ffffff;
-    width: clamp(300px, 100%, 700px);
+    width: clamp(420px, 100%, 700px);
     margin: auto;
 }
 nav{
@@ -41,7 +41,6 @@ ul{
 }
 i:hover {
     filter: invert(1);
-    transition: filter 0.3s ease;
 }
 nav a {
     padding: 3px;
