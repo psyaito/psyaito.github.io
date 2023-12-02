@@ -72,16 +72,18 @@ img {
 #image3 {
     filter: grayscale(100%);
     background-size: cover;
-    background-image: url(images/trace_pcb.jpg);
-}
-.white {
-    color: white;
+    background-image: url(images/_e7289ca5-2a8e-4380-aaec-8de004c935c3.jpg);
 }
 footer {
     margin-top: 2rem;
     font-size: 0.8rem;
     opacity: 0.7;
     text-align: center;
+}
+.textshadow {
+    text-shadow: 1px 0 1px #fff, -1px 0 1px #fff, 0 1px 1px #fff, 0 -1px 1px #fff,
+    1px 1px 1px #fff, -1px -1px 1px #fff, 1px -1px 1px #fff, -1px 1px 1px #fff;
+    font-weight: bold;    
 }
 .github {
     content: url(images/Github_black.svg);
