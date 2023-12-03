@@ -1,7 +1,16 @@
+@font-face {
+    font-family: comicFont;
+    src: url(font/Kalam-Light.ttf);
+}
+@font-face {
+    font-family: comicFont;
+    src: url(font/Kalam-Bold.ttf);
+    font-weight: bold;
+}
 body{
     margin: 0;
     padding: 4px;
-    font-family: "Avantgarde", sans-serif;
+    font-family: comicFont, sans-serif;
     background: #ffffff;
     width: clamp(420px, 100%, 700px);
     margin: auto;
