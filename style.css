@@ -1,16 +1,7 @@
-@font-face {
-    font-family: comicFont;
-    src: url(font/Kalam-Light.ttf);
-}
-@font-face {
-    font-family: comicFont;
-    src: url(font/Kalam-Bold.ttf);
-    font-weight: bold;
-}
 body{
     margin: 0;
     padding: 4px;
-    font-family: comicFont, sans-serif;
+    font-family: 'Kalam', serif;
     background: #ffffff;
     width: clamp(420px, 100%, 700px);
     margin: auto;
@@ -80,6 +71,15 @@ img {
     width: 100%;
     height: auto;
 }
+p {
+    padding: 5px;
+}
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 5px;
+}
 #image1 {
     filter: grayscale(100%);
     background-size: cover;
@@ -109,7 +109,7 @@ footer {
 .textshadow {
     text-shadow: 1px 0 1px #fff, -1px 0 1px #fff, 0 1px 1px #fff, 0 -1px 1px #fff,
     1px 1px 1px #fff, -1px -1px 1px #fff, 1px -1px 1px #fff, -1px 1px 1px #fff;
-    font-weight: bold;    
+    font-weight: bold;
 }
 .github {
     content: url(images/Github_black.svg);
