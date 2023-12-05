@@ -3,7 +3,7 @@ body{
     padding: 4px;
     font-family: 'Kalam', serif;
     background: #ffffff;
-    width: clamp(420px, 100%, 700px);
+    width: clamp(400px, 100%, 800px);
     margin: auto;
 }
 nav{
@@ -43,8 +43,9 @@ ul{
 }
 .icon{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 3px;
 }
