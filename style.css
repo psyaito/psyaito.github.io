@@ -56,6 +56,9 @@ a {
     text-decoration: none;
     color: black;
 }
+a:hover {
+    font-weight: bold;
+}
 nav a {
     padding: 3px;
     text-decoration: none;
@@ -90,18 +93,20 @@ img {
 }
 #image2 {
     filter: grayscale(100%);
-    background-size: cover;
-    background-image: url(images/light.jpg);
+    background: url(images/light.jpg) no-repeat center/contain;
 }
 #image3 {
     filter: grayscale(100%);
     background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
     background-image: url(images/cuberotation.gif);
 }
 #image4 {
     filter: grayscale(100%);
     background-size: contain;
-    background-image: url(images/);
+    background-image: url(images/cachill.png);
 }
 footer {
     margin-top: 2rem;
