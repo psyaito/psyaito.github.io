@@ -25,6 +25,14 @@ ul{
     margin: 0;
     padding: 3px;
 }
+.columncontain{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+    margin: 0;
+    padding: 3px;
+}
 .gallery {
     display: flex;
     flex-direction: row;
