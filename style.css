@@ -49,6 +49,7 @@ ul{
     margin: 6px;
     flex: 1;
 }
+
 .icon{
     display: flex;
     flex-wrap: wrap;
@@ -65,6 +66,8 @@ a {
     color: black;
 }
 a:hover {
+    filter: none;
+    transition: filter 0.3s ease;
     font-weight: bold;
 }
 nav a {
@@ -93,6 +96,12 @@ img {
     width: 100%;
     height: auto;
     padding: 10px;
+    filter: grayscale(100%);
+    max-width: 100%; /* Ensures responsiveness */
+    height: auto; /* Maintains aspect ratio */  
+}
+img:hover {
+    filter: none;
 }
 #image1 {
     filter: grayscale(100%);
