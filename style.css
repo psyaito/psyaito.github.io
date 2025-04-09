@@ -1,6 +1,13 @@
+html {
+    filter: grayscale(100%);
+    transition: filter 2s ease;
+}
+html:hover{
+    filter: grayscale(0%);
+}
 body{
     margin: 0;
-    padding: 4px;
+    padding: 0;
     font-family: 'Kalam', serif;
     background: #ffffff;
     width: clamp(350px, 100%, 800px);
@@ -96,12 +103,8 @@ img {
     width: 100%;
     height: auto;
     padding: 10px;
-    filter: grayscale(100%);
     max-width: 100%; /* Ensures responsiveness */
     height: auto; /* Maintains aspect ratio */  
-}
-img:hover {
-    filter: none;
 }
 #image1 {
     filter: grayscale(100%);
